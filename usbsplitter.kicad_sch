@@ -601,7 +601,7 @@
   (symbol (lib_id "Connector:USB_A") (at 111.76 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a88336e-884a-446a-886c-5bf332656f1d)
-    (property "Reference" "IN" (at 120.65 81.915 90)
+    (property "Reference" "IN1" (at 120.65 81.915 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USB_A" (at 120.65 84.455 90)
@@ -621,7 +621,7 @@
     (instances
       (project "usbsplitter"
         (path "/762276e9-b28b-4427-9958-3dbb372bff80"
-          (reference "IN") (unit 1)
+          (reference "IN1") (unit 1)
         )
       )
     )
